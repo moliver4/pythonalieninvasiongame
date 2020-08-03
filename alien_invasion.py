@@ -26,6 +26,6 @@ class AlientInvasion:
 
 
 if ___name__ == '__main__':
-	# Make a game instance, and run the game (if not running via own )
+	# Make a game instance, and run the game (if running as main program and not being imported elsewhere)
 	ai = AlientInvasion()
 	ai.run_game()
