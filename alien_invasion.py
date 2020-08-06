@@ -4,10 +4,10 @@ import pygame
 
 from settings import Settings
 
-class AlientInvasion:
+class AlienInvasion:
 	"""Overall class to manage game assests and behavior"""
 
-	def ___init___(self):
+	def __init__(self):
 		"""initialize the game, and create game resources."""
 		pygame.init()
 		self.settings = Settings()
@@ -37,7 +37,7 @@ class AlientInvasion:
 
 
 
-if ___name__ == '__main__':
+if __name__ == '__main__':
 	# Make a game instance, and run the game (if running as main program and not being imported elsewhere)
-	ai = AlientInvasion()
+	ai = AlienInvasion()
 	ai.run_game()
